@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <title>O.DeSalvatore</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="nav-container">
+        <div class="center-nav">
+          <div class="logo-container" id="home-top">
+            <p>octavio.</p>
+          </div>
+
+          <nav class="desktop-nav">
+            <a href="#home-top" class="underlineRed">Home</a>
+            <a href="#about-me-section" class="underlineRed">About me</a>
+            <a href="##my-work" class="underlineRed">Projects</a>
+            <a href="#contact-me-section" class="contact-me">Contact Me</a>
+          </nav>
+          <button class="hamburger">
+            <div class="bar"></div>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <nav class="mobile-nav">
+      <a href="#home-top" class="underlineRed disable">Home</a>
+      <a href="#about-me-section" class="underlineRed disable">About me</a>
+      <a href="##my-work" class="underlineRed disable">Projects</a>
+      <a href="#contact-me-section" class="contact-me disable">Contact Me</a>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-container">
+        <h1>¡Hola Mundo!</h1>
+        <p>
+          Soy Desarollador Web, apasionado con lo que hago y siempre queriendo
+          aprender algo nuevo.
+        </p>
+        <img class="avatar" src="./img/image3.svg" alt="" />
+      </div>
+      <div class="hero-foot">
+        <img
+          class="hero-foot-svg"
+          src="./img/undraw_responsive_6c8s.svg"
+          alt=""
+        />
+      </div>
+    </section>
+    <section class="about-me-section" id="about-me-section">
+      <div class="about-me-container">
+        <h3>Soy Octavio, un gusto en conocerte</h3>
+        <p>
+          Tengo 22 años. Soy estudiante de Lenguaje Multimedial en la Facultad
+          de Artes de La Plata. Me encanta tomar diseños y hacerlos realidad en
+          la Web, puedo estar horas perfeccionando los detalles.
+        </p>
+      </div>
+    </section>
+    <section class="skills-set">
+      <div class="center-container paddingx">
+        <div class="skill-title">
+          <h2>Skills</h2>
+        </div>
+        <div class="carousel">
+          <div class="carousel__contenedor">
+            <!-- Para dispositivos de lectura aria-label -->
+            <button aria-label="Anterior" class="carousel__anterior">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div class="carousel__lista">
+              <div class="carousel__elemento">
+                <div class="img-animation">
+                  <img
+                    src="./img/HTML5_logo_and_wordmark.svg"
+                    alt="HTML Logo"
+                  />
+                </div>
+              </div>
+              <div class="carousel__elemento">
+                <div class="img-animation">
+                  <img src="./img/CSS3_logo_and_wordmark.svg" alt="CSS Logo" />
+                </div>
+              </div>
+              <div class="carousel__elemento">
+                <div class="img-animation">
+                  <img
+                    src="./img/javascript-seeklogo.com.svg"
+                    alt="JavaScript Logo"
+                  />
+                </div>
+              </div>
+
+              <div class="carousel__elemento">
+                <div class="img-animation">
+                  <img
+                    src="./img/1280px-React-icon.svg.png"
+                    alt="JavaScript Logo"
+                  />
+                </div>
+              </div>
+
+              <div class="carousel__elemento">
+                <div class="img-animation">
+                  <img
+                    src="./img/Bootstrap_logo.svg.png"
+                    alt="JavaScript Logo"
+                  />
+                </div>
+              </div>
+
+              <div class="carousel__elemento">
+                <div class="img-animation">
+                  <img src="./img/github-icon.svg" alt="JavaScript Logo" />
+                </div>
+              </div>
+
+              <div class="carousel__elemento">
+                <div class="img-animation">
+                  <img src="./img/Git_icon.svg.png" alt="JavaScript Logo" />
+                </div>
+              </div>
+
+              <div class="carousel__elemento">
+                <div class="img-animation">
+                  <img
+                    src="./img/Adobe_Premiere_Pro_CC_icon.svg.png"
+                    alt="JavaScript Logo"
+                  />
+                </div>
+              </div>
+
+              <div class="carousel__elemento">
+                <div class="img-animation">
+                  <img
+                    src="./img/Adobe_Illustrator_CC_icon.svg.png"
+                    alt="JavaScript Logo"
+                  />
+                </div>
+              </div>
+
+              <div class="carousel__elemento">
+                <div class="img-animation">
+                  <img
+                    src="./img/1051px-Adobe_Photoshop_CC_icon.svg.png"
+                    alt="JavaScript Logo"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <button aria-label="Siguiente" class="carousel__siguiente">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+
+          <div role="tablist" class="carousel__indicadores"></div>
+        </div>
+      </div>
+    </section>
+    <section class="recent-work" id="#my-work">
+      <div class="recent-work-container center-container">
+        <div class="work-title">
+          <h2>Mis trabajos</h2>
+        </div>
+        <div class="work-container">
+          <div class="work">
+            <img src="/img/work1.PNG" alt="Trabajo Img" />
+            <figcaption class="hover-absolute-card">
+              <h3>Landing Page Realizada para curso de Le Wagon Argentina</h3>
+              <a href="https://octaviodesalvatore.github.io/" target="”_blank”"
+                ><span>Visitar sitio Web</span></a
+              >
+            </figcaption>
+          </div>
+
+          <div class="work">
+            <img src="/img/work2.PNG" alt="Trabajo Img" />
+            <figcaption class="hover-absolute-card">
+              <h3>
+                Maquetación de la pagina de Spotify para practica personal
+              </h3>
+              <a
+                href="https://octavio-spotify-practica-maquetado.netlify.app/"
+                target="”_blank”"
+                ><span>Visitar sitio Web</span></a
+              >
+            </figcaption>
+          </div>
+
+          <div class="work">
+            <img src="/img/work3.PNG" alt="Trabajo Img" />
+            <figcaption class="hover-absolute-card">
+              <h3>Landing Page realizada para trabajo de la universidad</h3>
+              <a href="https://octavio-cuponsito.netlify.app/" target="”_blank”"
+                ><span>Visitar sitio Web</span></a
+              >
+            </figcaption>
+          </div>
+
+          <div class="work">
+            <img src="/img/work4.PNG" alt="Trabajo Img" />
+            <figcaption class="hover-absolute-card">
+              <h3>
+                Infografía interactiva realiazada para la universidad. Una de
+                mis primeras paginas sin mucho conocimiento de css
+              </h3>
+              <a
+                href="https://energias-renovables.netlify.app/"
+                target="”_blank”"
+                ><span>Visitar sitio Web</span></a
+              >
+            </figcaption>
+          </div>
+
+          <div class="work">
+            <img src="/img/work5.PNG" alt="Trabajo Img" />
+            <figcaption class="hover-absolute-card">
+              <h3>Contador de dias para nuevo año</h3>
+              <a href="https://new-years-counter.netlify.app/" target="”_blank”"
+                ><span>Visitar sitio Web</span></a
+              >
+            </figcaption>
+          </div>
+
+          <div class="work">
+            <img src="/img/work6.PNG" alt="Trabajo Img" />
+            <figcaption class="hover-absolute-card">
+              <h3>Juego de preguntas</h3>
+              <a
+                href="https://octavio-first-quiz-app.netlify.app/"
+                target="”_blank”"
+                ><span>Visitar sitio Web</span></a
+              >
+            </figcaption>
+          </div>
+
+          <div class="work">
+            <img src="/img/work7.PNG" alt="Trabajo Img" />
+            <figcaption class="hover-absolute-card">
+              <h3>Juego realizado con p5.JS para la universidad</h3>
+              <a href="https://cementery-scape.netlify.app/" target="”_blank”"
+                ><span>Visitar sitio Web</span></a
+              >
+            </figcaption>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-me-section" id="contact-me-section">
+      <div class="center-container">
+        <div class="contact-me-container">
+          <div class="cv-container">
+            <a href="./docs/OctavioCV.pdf" download="">
+              <button>Descargar CV</button>
+            </a>
+          </div>
+
+          <div class="content">
+            <h2>Contáctame</h2>
+            <div class="contactForm">
+              <form
+                id="contact-me-anchor"
+                action="https://formsubmit.co/octaviodesalvatore@gmail.com"
+                method="POST"
+              >
+                <h3>Enviar un mensaje</h3>
+                <div class="inputBox">
+                  <input
+                    type="text"
+                    name="name"
+                    required="required"
+                    autocomplete="name"
+                  />
+                  <span>Nombre completo</span>
+                </div>
+
+                <div class="inputBox">
+                  <input
+                    type="text"
+                    name="email"
+                    required="required"
+                    autocomplete="email"
+                    class="email"
+                  />
+                  <span>Email</span>
+                </div>
+
+                <div class="inputBox">
+                  <input
+                    type="text"
+                    name="subject"
+                    required="required"
+                    class="subject"
+                  />
+                  <span>Asunto</span>
+                </div>
+
+                <div class="inputBox">
+                  <textarea
+                    required="required"
+                    class="message"
+                    name="message"
+                  ></textarea>
+                  <span>Escribe tu mensaje...</span>
+                </div>
+                <div class="inputBox">
+                  <input type="submit" class="submit" name="" value="Enviar" />
+                  <div class="status"></div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="center-container">
+        <ul class="footer-container">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/octaviodesalvatore/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/okidesalvatore" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/octaviodesalvatore" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.twitch.tv/okitek1" target="_blank">
+              <i class="fab fa-twitch"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/2c36e9b7b1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
