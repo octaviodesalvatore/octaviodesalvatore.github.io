@@ -384,6 +384,9 @@ a {
   user-select: none;
   overflow: hidden;
   position: relative;
+  -webkit-box-shadow: 4px 4px 9px 4px rgba(0, 0, 0, 0.59);
+  box-shadow: 4px 4px 9px 4px rgba(0, 0, 0, 0.59);
+  border-radius: 14px;
 }
 
 .work img {
@@ -405,20 +408,12 @@ a {
   width: 100%;
   border-radius: 14px;
   padding: 30px;
-
-  background: #8e9eab; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #eef2f3,
-    #8e9eab
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #eef2f3,
-    #8e9eab
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background-color: #701919;
+  opacity: 0.9;
   color: #951717;
+
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='400' height='400' preserveAspectRatio='none' viewBox='0 0 400 400'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1075%26quot%3b)' fill='none'%3e%3crect width='400' height='400' x='0' y='0' fill='rgba(112%2c 25%2c 25%2c 1)'%3e%3c/rect%3e%3cpath d='M40 400L440 0L671 0L271 400z' fill='url(%23SvgjsLinearGradient1076)'%3e%3c/path%3e%3cpath d='M392 400L-8 0L-153.5 0L246.5 400z' fill='url(%23SvgjsLinearGradient1077)'%3e%3c/path%3e%3cpath d='M121.33350280114183 400L400 121.33350280114183L400 400z' fill='url(%23SvgjsLinearGradient1076)'%3e%3c/path%3e%3cpath d='M0 400L278.66649719885817 400L 0 121.33350280114183z' fill='url(%23SvgjsLinearGradient1077)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1075'%3e%3crect width='400' height='400' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1076'%3e%3cstop stop-color='rgba(221%2c 23%2c 23%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(221%2c 23%2c 23%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1077'%3e%3cstop stop-color='rgba(221%2c 23%2c 23%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(221%2c 23%2c 23%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+
   text-align: center;
   visibility: hidden;
 
@@ -460,12 +455,12 @@ a {
 
 .work h3 {
   margin-bottom: 2.5rem;
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 .work a {
   text-decoration: none;
-  color: #951717;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 600;
 }
@@ -473,14 +468,14 @@ a {
 .work span {
   background: transparent;
   padding: 4px 10px;
-  border: 2px solid #951717;
+  border: 2px solid #fdfdfd;
   border-radius: 14px;
   cursor: pointer;
 }
 
 .work span:hover {
-  background-color: #951717;
-  color: #fff;
+  background-color: #d3cdcd;
+  color: rgb(22, 22, 22);
   transition: all 250ms ease-in-out;
 }
 
