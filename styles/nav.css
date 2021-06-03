@@ -27,6 +27,7 @@ header {
 
 @media (min-width: 768px) {
   .not-transparent {
+    backdrop-filter: saturate(180%) blur(10px);
     background-color: #020000bd;
     transition: background-color 250ms ease-in;
     color: white;
